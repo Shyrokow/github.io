@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'Segoe WP N';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../font/SegoeWPN.woff"), url('SegoeWPN.woff') format('woff');
+    }
+@font-face {
+    font-family: 'OptomalT';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../font/Optima-LT-Regular.woff"), url('OptimaLT.woff') format('woff');
+    }
+header {
+    border-bottom: 1px dashed #e5e5e5;
+}
+nav {
+    display: flex;
+    width: 1024px;
+    height: 120px;
+    margin: 0 auto;
+}
+nav div {
+    display: flex;
+    margin: auto 0;
+}
+.logo {
+    width: 250px;
+    justify-content: left;
+}
+.menuheader {
+    display: flex;
+    width: calc(1024px - 250px);
+    justify-content: right;
+    margin: auto 0;
+    flex-wrap: nowrap;
+}
+.menuheader li {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: #373737;
+    justify-content: center;
+    margin: 0 20px;
+}
+.menuheader li a {
+    margin: auto 0;
+    font-family: 'Segoe WP N';
+    font-size: 19px;
+    color: black;
+}
+.menuheader li+li {
+    background-color: white;
+}
+li a[href*="home"] {
+    color: white;
+}
+.section1 {
+    display: flex;
+    width: 1024px;
+    height: 540px;
+    margin: 50px auto 0 auto;
+    justify-content: center;
+
+}
+.lefttop {
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+    height: 300px;
+    margin: auto 0;
+}
+.lefttop h2 {
+    display: flex;
+    font-family: 'Segoe WP N';
+    color: #5d5d5d;
+    font-size: 50px;
+}
+.lefttop h3 {
+    display: flex;
+    font-family: 'Segoe WP N';
+    color: #5d5d5d;
+    font-size: 40px;
+    margin: -80px 0 0 0;
+}
+.lefttop div {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    background-color: #373737;
+    justify-content: center;
+    margin: -70px 0 0 0;
+}
+.lefttop div img {
+    width: 35px;
+    height: 20px;
+    margin: auto 0;
+}
+.lefttop div a {
+    color: white;
+    font-family: 'Segoe WP N';
+    font-size: 20px;
+    margin: auto 5px;
+}
+.righttop {
+    display: flex;
+    margin: auto 0;
+}
+.righttop img {
+    width: 750px;
+    height: 360px
+}
+.section2{
+    display: flex;
+    width: 1024px;
+    margin: 0 auto;
+}
+.leftsection2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+}
+.uparticle {
+    display: flex;
+    height: 250px;
+    width: 650px;
+    position: relative;
+    z-index: 0;
+}
+.uparticle article{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe WP N';
+}
+.uparticle img[src*="arrow.png"]{
+    position: relative;
+    z-index: 1;
+    margin-top: 210px;
+    margin-right: 10px;
+    height: 40px;
+    width: 35px;
+}
+.uparticle img[src*="Lorempic.png"]{
+    height: 250px;
+    width: 290px;
+}
+.uparticle h2{
+color: #696161;
+margin: 0 0 0 12px;
+padding: 0;
+font-size: 28px;
+}
+.uparticle p{
+    color: #696161;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 14px;
+    width: 300px;
+    height: 160px;
+    overflow: hidden;
+}
+.articles {
+    display: flex;
+    width: 650px;
+    flex-wrap: wrap;
+}
+.articles article{
+    display: flex;
+    width: 215px;
+    height: 210px;
+    font-family: 'Segoe WP N';
+    flex-wrap: wrap;
+    overflow: hidden;
+    color: #7d7676;
+}
+.articles article h2{
+    width: 210px;
+    height: 20px;
+
+}
+.articles article p{
+    font-size: 10px;
+    width: 210px;
+    height: 20px;
+    margin-top: -30px;
+}
+.articles article p+p{
+    font-size: 14px;
+    width: 210px;
+    margin-top: -66px;
+}
+.section2 aside{
+    width: calc(1024px - 650px);
+}
+.form {
+    display: flex;
+    width: 320px;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #393a39;
+    border-bottom: 10px solid #bb4465;
+    font-family: 'Segoe WP N';
+    color: white;
+}
+.form h2{
+font-size: 28px;
+}
+.form p{
+    margin-top: -20px;
+    width: 250px;
+    height: 30px;
+}
+.form div input {
+    display: flex;
+    width: 250px;
+    height: 20px;
+    margin: 20px;
+}
+.form .Signin input {
+    margin: 0 auto;
+    width: 180px;
+    height: 40px;
+    justify-content: center;
+    background-color: #bb4465;
+    border-radius: 10px;
+    border: solid #bb4465;
+    color: white;
+    font-family: 'OptomalT';
+}
+footer {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: #393a39;
+    color: white;
+    font-family: 'Segoe WP N';
+    font-size: 12px;
+    height: 50px;
+}
+footer p{
+    display: flex;
+    width: 535px;
+    justify-content: right;
+}
+footer .social {
+    display: flex;
+    width: 390px;
+    justify-content: right;
+    margin: auto 0;
+}
+.socialb {
+    margin: 0 10px;
+}
