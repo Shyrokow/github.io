@@ -38,9 +38,11 @@ nav div {
     display: flex;
     width: 100px;
     height: 40px;
-    background-color: #373737;
     justify-content: center;
     margin: 0 20px;
+}
+.menuheader li:first-child:hover {
+    background-color: black;
 }
 .menuheader li a {
     margin: auto 0;
@@ -48,10 +50,7 @@ nav div {
     font-size: 19px;
     color: black;
 }
-.menuheader li+li {
-    background-color: white;
-}
-li a[href*="home"] {
+li a[href*="home"]:hover {
     color: white;
 }
 .section1 {
@@ -209,6 +208,9 @@ font-size: 28px;
     margin-top: -20px;
     width: 250px;
     height: 30px;
+}
+.fieldbox:required {
+    border: 1px solid red;
 }
 .form div input {
     display: flex;
